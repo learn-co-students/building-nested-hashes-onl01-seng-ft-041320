@@ -21,7 +21,22 @@ def bonus
   }
 
   #code your solution here:
+  epic_tragedy[:montague][:hero][:status] = "dead"
 
+  epic_tragedy[:montague][:hero_friends][1][:name] = "Mercutio"
+  epic_tragedy[:montague][:hero_friends][1][:age] = "18"
+  epic_tragedy[:montague][:hero_friends][1][:attitude] = "hot-headed"
+
+
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
+
+  epic_tragedy[:capulet][:heroine_friends][0][:name] = "Steven"
+  epic_tragedy[:capulet][:heroine_friends][0][:age] = "30"
+  epic_tragedy[:capulet][:heroine_friends][0][:attitude] = "Confused"
+
+  epic_tragedy[:capulet][:heroine_friends][1][:name] = "Nurse"
+  epic_tragedy[:capulet][:heroine_friends][1][:age] = "44"
+  epic_tragedy[:capulet][:heroine_friends][1][:attitude] = "worried"
   
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
